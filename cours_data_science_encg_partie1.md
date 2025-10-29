@@ -1,6 +1,7 @@
 # COURS DE SCIENCE DES DONNÉES
 ## École Nationale de Commerce et de Gestion (ENCG) - 4ème Année
   SALIMA BLALET
+  <img src="IMG_20251018_170628.jpg" style="height:464px;margin-right:432px"/>
 ---
 
 # PARTIE 1 : FONDAMENTAUX DE LA SCIENCE DES DONNÉES
@@ -16,7 +17,7 @@ La **science des données** (Data Science) est un domaine interdisciplinaire qui
 **Pourquoi la science des données est-elle cruciale en entreprise ?**
 
 - **Prise de décision éclairée** : Remplacer l'intuition par des analyses basées sur les données
-- **Personnalisation client** : Adapter les offres et services aux besoins individuels
+- **Personnalisation client** : Adapter les offres et services aux besoins individuel
 - **Optimisation opérationnelle** : Réduire les coûts, améliorer l'efficacité
 - **Avantage concurrentiel** : Anticiper les tendances du marché
 - **Innovation** : Développer de nouveaux produits et services
