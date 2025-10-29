@@ -137,7 +137,7 @@ projet_data_science/
 │   ├── data/            # Scripts de traitement des données
 │   ├── features/        # Feature engineering
 │   ├── models/          # Modèles ML
-│   └── visualization/   # Visualisations
+│   └── visualization/   # Visualisations(graphiques)
 │
 ├── models/              # Modèles entraînés sauvegardés
 ├── reports/             # Rapports et analyses
