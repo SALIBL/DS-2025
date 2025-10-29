@@ -1,7 +1,8 @@
 # COURS DE SCIENCE DES DONNÉES
 ## École Nationale de Commerce et de Gestion (ENCG) - 4ème Année
-  SALIMA BLALET
-  <img src="IMG_20251018_170628.jpg" style="height:464px;margin-right:432px"/>
+##SALIMA BLALET
+
+<img src="IMG_20251018_170628.jpg" style="height:464px;margin-right:432px"/>
 ---
 
 # PARTIE 1 : FONDAMENTAUX DE LA SCIENCE DES DONNÉES
