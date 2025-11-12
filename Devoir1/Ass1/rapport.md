@@ -1,2 +1,84 @@
 # BLALET SALIMA
 <img src="IMG_20251018_170628.jpg" style="height:464px;margin-right:432px"/>
+
+# fetch dataset
+
+student_performance = fetch_ucirepo(id=320)
+
+# data (as pandas dataframes)
+
+X = student_performance.data.features
+y = student_performance.data.targets
+
+# metadata
+
+print(student_performance.metadata)
+
+# variable information
+
+print(student_performance.variables)
+
+Voici une version améliorée du prompt pour obtenir un maximum d'informations détaillées sur la problématique du code, incluant la population étudiée et des statistiques descriptives :
+
+```python
+# Installation et importation de la bibliothèque ucimlrepo pour accéder aux datasets UCI
+!pip install ucimlrepo
+from ucimlrepo import fetch_ucirepo
+
+# Chargement du dataset Student Performance (ID 320)
+student_performance = fetch_ucirepo(id=320)
+
+# Extraction des données
+X = student_performance.data.features  # variables explicatives
+y = student_performance.data.targets   # variables cibles
+
+# Affichage des métadonnées du dataset, incluant population, contexte, et description
+print("=== Métadonnées ===")
+print(student_performance.metadata)
+
+# Affichage des informations sur les variables (types, descriptions)
+print("\n=== Description des Variables ===")
+print(student_performance.variables)
+
+# Statistiques descriptives des variables explicatives quantitatives
+print("\n=== Statistiques descriptives des variables explicatives ===")
+print(X.describe())
+
+# Statistiques descriptives des variables cibles
+print("\n=== Statistiques descriptives des variables cibles ===")
+print(y.describe())
+
+# Information sur la population étudiée (nombre d'exemples, caractéristiques démographiques principales)
+print(f"\nNombre d'échantillons : {X.shape[^0]}, Nombre de variables : {X.shape[^1]}")
+```
+
+Ce prompt permet de :
+
+- Installer et importer la bibliothèque nécessaire
+- Charger et extraire les données et cibles
+- Afficher la métadonnée détaillée sur la population et contexte du dataset
+- Obtenir une description précise des variables utilisées
+- Produire des statistiques descriptives pour mieux comprendre la distribution des données
+
+Ainsi, il offre une vue complète sur la population étudiée et les caractéristiques statistiques du dataset Student Performance, facilitant l'analyse et la compréhension du problème.
+<span style="display:none">[^2][^3][^4][^5][^6][^7][^8][^9]</span>
+
+<div align="center">⁂</div>
+
+[^1]: https://github.com/JuneC7020/Student-Performance-Machine-Learning
+
+[^2]: https://archive.ics.uci.edu/ml/datasets/Student+Performance
+
+[^3]: https://archive.ics.uci.edu/ml/datasets/Student+Academics+Performance
+
+[^4]: https://archive.ics.uci.edu/datasets?skip=0\&take=10\&orderBy=DateDonated\&search=Student+Performance
+
+[^5]: https://archive.ics.uci.edu/dataset/856/higher+education+students+performance+evaluation
+
+[^6]: https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success
+
+[^7]: https://www.kaggle.com/datasets/dskagglemt/student-performance-data-set
+
+[^8]: https://archive.ics.uci.edu/datasets?skip=0\&take=15\&orderBy=NumHits
+
+[^9]: https://github.com/rupakc/UCI-Data-Analysis/blob/master/Student Dataset/Student/UCI Machine Learning Repository_%20Student%20Performance%20Data%20Set.pdf
