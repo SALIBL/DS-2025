@@ -1,6 +1,4 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
-# améliore ce prompt :donne_le_maximum_d'information_sur_cet_problématique_de_ce_code_ àsavoir la population et informations statistiques descriptives !pip install ucimlrepo from ucimlrepo import fetch_ucirepo
 
 # fetch dataset
 
