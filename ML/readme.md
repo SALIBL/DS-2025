@@ -1,5 +1,5 @@
-# NOM:BLALET Prénom:SALIMA
-# Filière:contrôle,audit et conseil
+# NOM: BLALET SALIMA
+# Filière: contrôle,audit et conseil
 
 # Rapport descriptif du code de l’analyse Machine Learning sur la qualité des vins
 
@@ -60,7 +60,31 @@ erreur_v = 1 - accuracy_score(Yv, Ypredv)
 
 Le notebook démontre, étape par étape, la préparation, l’approche et l’évaluation d’un modèle de classification supervisée adapté à la prédiction de la qualité des vins, avec un accent sur la rigueur de la validation par découpe des données et par utilisation de métriques pertinentes de performance. Les graphiques et analyses intermédiaires justifient les choix méthodologiques et offrent une compréhension globale de l’efficacité du pipeline retenu.[1]
 
-***
+# descrptif de la matrice de corrélation:
+
+### Lecture de la matrice
+
+- Chaque cellule indique la force et le sens de la relation entre deux variables.
+- Un coefficient près de **1** signifie une forte corrélation positive : lorsque l’une augmente, l’autre augmente aussi.[1]
+- Un coefficient près de **-1** révèle une forte corrélation négative, c’est-à-dire que lorsque l’une augmente, l’autre diminue.[1]
+- Des coefficients proches de **0** indiquent peu ou pas de relation linéaire entre les deux variables.[1]
+
+### Corrélations marquantes
+
+- La variable **alcool** se corrèle négativement avec la densité (\(-0.78\)), ce qui est attendu car l’alcool, moins dense que l’eau, baisse la densité du vin.[1]
+- La **qualité** du vin affiche des corrélations faibles avec la plupart des caractéristiques, la plus forte étant négative avec la densité (\(-0.45\)), et modérément positive avec l’alcool (\(0.12\)).[1]
+- **Résidual sugar** est corrélé positivement à la densité (\(0.84\)), car le sucre non fermenté augmente la densité globale.[1]
+- **Free sulfur dioxide** et **total sulfur dioxide** ont une corrélation modérée (\(0.62\)), car ils sont tous deux des composés soufrés utilisés dans la stabilisation du vin.[1]
+
+### Utilité dans la modélisation
+
+- Les variables présentant des corrélations plus fortes avec la qualité, telles que l’alcool ou la densité, peuvent servir d’indicateurs utiles pour la prédiction dans un modèle de Machine Learning.
+- Cette matrice permet aussi d’identifier les variables redondantes ou fortement corrélées, afin d’éviter les problèmes de multicolinéarité dans la modélisation.[1]
+
+Cette analyse visuelle oriente le choix des variables du modèle et clarifie les interactions entre propriétés physico-chimiques et qualité perçue du vin.
+
+
+
 
 
 
