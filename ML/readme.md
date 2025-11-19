@@ -1,5 +1,4 @@
-# NOM:BLALET
-# Prénom:SALIMA
+# NOM:BLALET Prénom:SALIMA
 # Filière:contrôle,audit et conseil
 
 # Rapport descriptif du code de l’analyse Machine Learning sur la qualité des vins
