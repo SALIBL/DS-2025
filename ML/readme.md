@@ -1,5 +1,6 @@
 # NOM: BLALET SALIMA
 # Filière: contrôle,audit et conseil
+# Groupe:1
 
 # Rapport descriptif du code de l’analyse Machine Learning sur la qualité des vins
 
