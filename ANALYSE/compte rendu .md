@@ -1,7 +1,7 @@
 ## TITRE: Global_health_nutrition,_mortality,_economic_data
 ## NOM:BLALET SALIMA
 ## GROUPE:CAC1
-<img src="IMG_20251018_170628.jpg" style="height:464px;margin-right:432px"/>
+<img src="IMG_20251018_170628(2).jpg" style="height:464px;margin-right:432px"/>
 
 # 📊 Analyse Machine Learning – Global Health, Nutrition, Mortality, Economic Data
 
