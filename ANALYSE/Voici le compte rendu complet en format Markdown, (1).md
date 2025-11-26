@@ -1,9 +1,8 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-# Voici le compte rendu complet en format Markdown, basé EXCLUSIVEMENT sur le contenu réel du fichier Python que tu as fourni
-
-(global_health,_nutrition,_mortality,_economic_data.py)
-Tu peux copier-coller directement ce document dans ton rapport.
+<img src="IMG_20251018_170628.jpg" 
+## NOM:SALIMA BLALET 
+## FILIÈRE :CAC
+## GROUPE :1
+## TITRE:  global_health,_nutrition,_mortality,_economic_data
 
 # 📊 Analyse Machine Learning – Global Health, Nutrition, Mortality, Economic Data
 
