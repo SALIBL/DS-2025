@@ -1,5 +1,7 @@
+##  TITRE: SMART_CITIES
 ## Nom:   SALIMA BLALET
-## groupe: CAC 1
+## GROUPE: CAC 1
+<img src="SALIMA_BLALET.jpg" style="height:464px;margin-right:432px"/>
 
 # 📘 Rapport : Génération de Code Assistée par l’Intelligence Artificielle
 
