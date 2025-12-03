@@ -1,3 +1,6 @@
+## Nom:   SALIMA BLALET
+## groupe: CAC 1
+
 # 📘 Rapport : Génération de Code Assistée par l’Intelligence Artificielle
 
 ## 1. Introduction  
